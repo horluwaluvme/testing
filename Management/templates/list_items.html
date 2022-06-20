@@ -1,0 +1,14 @@
+queryset
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{title}}</title>
+    </head>     
+
+<body>
+    {% for data in queryset %}
+    {{data.room_number}}, {{data.amount_paid}}, {{data.occupant_name}}, {{data.occupant_email}}, {{data.occupant_occupation}}, {{data.number_of_night}}, {{data.start_date}}, {{data.end_date}}<br>
+    {% endfor %}
+</body>
+
+</html>
