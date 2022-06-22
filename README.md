@@ -1,1 +1,1 @@
-This is the Hotel task
+This is the XYZhotel task
