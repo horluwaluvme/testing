@@ -5,7 +5,7 @@ from .models import *
 # Create your views here.
 
 def home(request):
-    title = 'Welcome to Hp'
+    title = 'Welcome to HomePage'
     form = 'Identation is important'
     context = {
         "title": title,

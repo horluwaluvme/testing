@@ -9,12 +9,5 @@ class ClientCreateAdmin(admin.ModelAdmin):
    list_filter = ['room_number']
    search_fields = ['room_number', 'occupant_name']
 
-
-
-
-
-
-
-
 # Register your models here.
 admin.site.register(Management_Post, ClientCreateAdmin)
